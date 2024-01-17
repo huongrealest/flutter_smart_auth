@@ -7,7 +7,7 @@ part 'sms_code_result.dart';
 
 part 'credential.dart';
 
-const _defaultCodeMatcher = '\\d{4,8}';
+const _defaultCodeMatcher = r'\b(\d{6})\b';
 
 class Methods {
   static const getAppSignature = 'getAppSignature';
